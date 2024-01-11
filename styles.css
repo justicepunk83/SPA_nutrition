@@ -1,0 +1,82 @@
+/*h1 {
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+table {
+    width: 200px;
+    border-spacing: 5px;
+    padding: 25px 50px 75px 100px;
+    margin: 25px 50px 75px 100px;
+}
+
+table td {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 20px;
+    margin: 20px;
+}
+
+.sit-in-the-corner {
+    float: none;
+    margin-left: 0px;
+    margin-top: 50px;
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#calendar {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: #f2f2f2;
+}
