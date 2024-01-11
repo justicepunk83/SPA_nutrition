@@ -36,6 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    function makeDayEditable(cell) {
+    const dayContent = cell.querySelector('.day-content');
+    dayContent.focus();
+
     // Initial rendering
     renderCalendar();
 
